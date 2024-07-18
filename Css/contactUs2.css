@@ -1,0 +1,394 @@
+body{
+    background: url(/images/heading\ bg.jpg);
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+#navbar{
+margin-top: -30px;
+height: 180px;
+}
+.shanimg{
+    height: 170px;
+    padding: 0px 0 40px 20px;
+}
+#about{
+    color: white;
+    
+}
+#ourManagment{
+    color: white;
+}
+#brands{
+    color: white;
+}
+#communication{
+    color: white;
+}
+#career{
+    color: white;
+}
+#contactus{
+    color: white;
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-right: none;
+    float: left;
+    width: 80%;
+    background: transparent;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background:transparent;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #ffd35e;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+.about-bg{
+    display: flex;
+    width: 100%;
+
+}
+.title{
+    color: white;
+    margin-top: -150px;
+    margin-left: 100px;
+}
+.abt{
+    font-weight: 70 ;
+}
+.us{
+    color: #ffd35e;
+    font-weight: 900;
+    height: 50px;
+}
+.text{
+    color: white;
+    margin-left: 45%;
+    margin-top:100px;
+    letter-spacing: px;
+}
+
+.new-heading {
+    display: flex;
+    flex-direction: row;
+    margin: 43px 0 0 0;
+    color: white;
+    letter-spacing: -3px;
+    justify-content: space-between;
+  }
+  .spn3 {
+    color: #ffd35e;
+    font-weight: 900;
+    padding: 55px 20px 0 20px;
+  }
+.contact{
+color: #ffffff;
+font-weight: 100;
+text-align: center;
+
+}
+.line-img1{
+    width: 45%;
+    height:10.94px;
+    margin: 50px 0 0 0;
+}
+.line-img1-bottom{
+    width: 45%;
+    height:10.94px;
+    margin: 0px 0 100px 0;
+}
+.line-img2-bottom{
+    width: 45%;
+    height:10.94px;
+    margin: 0px 0 100px 0;
+}
+.line-img2{
+    width:45%;
+    height:10.94px;
+    margin: 50px 0 0 0;
+}
+.text-contact{
+    color: #ffffff;
+    text-align: center;
+}
+label{
+    color: #ffd35e;
+    margin: -30px ;
+}
+#name{
+    margin: 0 0 0 200px;
+}
+.text-contact{
+    color: #ffffff;
+    text-align: center;
+    margin: 0px 0 0 0;
+}
+.contact-form {
+    display: flex;
+    flex-wrap: wrap; /* Allow elements to wrap onto new lines if needed */
+    margin: 100px auto;
+    width: 80%; /* Adjust width as desired */
+}
+
+.form-group {
+    display: flex; /* Arrange labels and inputs side-by-side */
+    margin-bottom: 30px;
+    width: 50%; 
+    height: 37px;
+}
+
+label {
+    width: 40%; /* Adjust label width as needed */
+    text-align: right; /* Align labels to the right for better spacing */
+    margin-right: 10px;
+    height: 40px;
+}
+.label-name{
+    color: #ffd35e;
+    text-align: center;
+}
+.contact-form {
+    display: flex;
+    flex-wrap: wrap; /* Allow elements to wrap onto new lines if needed */
+    width: 80%; 
+
+}
+
+.form-group {
+    display: flex; /* Arrange labels and inputs side-by-side */
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 50%; /* Each half of a row will take up 50% */
+}
+
+label {
+    width: 40%; /* Adjust label width as needed */
+    text-align: start; /* Align labels to the right for better spacing */
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 40px;
+    color: #ffd35e;
+}
+input[type="text"], input[type="email"], input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: transparent;
+}
+#contactNumber{
+    width: 100%;
+    background: transparent;
+    border: #ccc solid 1px;
+    height: 37px;
+}
+#expiryDate{
+    background: transparent;
+    color: #fff;
+    border: #ccc solid 1px;
+    width: 100%;
+    height: 37px;
+}
+#manufacturingDate{
+    background: transparent;
+    color: #fff;
+    border: #ccc solid 1px;
+    width: 100%;
+    height: 37px;
+}
+#city{
+    width: 100%;
+    height: 37px;
+}
+#Address{
+    background: transparent;
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 37px;
+}
+#Picture{
+    width: 100%;
+    background: transparent;
+    border: #ccc solid 1px;
+    height: 37px;
+}
+textarea {
+    width: 100%; /* Adjust message box height as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 37px;
+    background: transparent;
+}
+.bottom-text{
+    color: #ccc;
+    text-align: center;
+}
+.whatsapp-number{
+    color: #ffd35e;
+text-decoration: none;
+}
+#whatsapp-icon{
+    color: green;
+}
+
+
+.text3{
+    color: #fff;
+    margin-left: 50px;
+}
+.btn4{
+    background: #cf181f;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    padding: 8px 30px;
+    display: inline-block;
+    cursor: pointer;
+    font-family: "MontUltraLight"; 
+    font-family: "MontBold";
+    font-size: 2vh;
+    color: #fff !important;
+    margin: 0px 0 0 0px;
+    font-weight: 900;
+    height: 40px;
+}
+#inp-email{
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 8px 30px;
+    display: inline-block;
+    cursor: pointer;
+    font-family: "MontUltraLight"; 
+    font-size: 2vh;
+    color: #ffffff !important;
+    font-weight: 900;
+    height: 40px;
+
+}
+
+.btn1{
+    background: #cf181f;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    padding: 8px 30px;
+    display: inline-block;
+    cursor: pointer;
+    font-family: "MontUltraLight"; 
+    font-family: "MontBold";
+    font-size: 2vh;
+    color: #fff !important;
+    margin: 0px 0 0 0;
+    font-weight: 900;
+    height: 40px;
+}
+.link-heading{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+.txt-center{
+   text-align: center;
+   display: flex;
+   margin: auto;
+   width: 55%;
+   justify-content: space-between;
+}
+.social-link-heading{
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+#footer-text{
+    color: #ffffff;
+    margin: 25px 0px 0px 0px;
+    padding: 25px 0px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.row{
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    
+}
+.right-arrow{
+    float: right;
+    height: 20px;
+    margin: -40px 170px 0 0;
+}
+.end-text{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 70px;
+    height: 50px;
+}
+#abt{
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn-submit{
+    background: #cf181f;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    padding: 8px 30px;
+    display: inline-block;
+    cursor: pointer;
+    font-family: "MontUltraLight"; 
+    font-family: "MontBold";
+    font-size: 2vh;
+    color: #fff !important;
+    margin: 0px 0 120px 200px;
+    font-weight: 900;
+    height: 40px;
+}
+.icon{
+    color: #ffffff;
+    text-align: center;
+}
+
+.link-opacity-10-hover{
+    color: #ffffff;
+}
+.link-opacity-25-hover{
+    color: #ffffff;
+}
+.link-opacity-50-hover{
+    color: #ffffff;
+}
+.link-opacity-50-hover{
+    color: #ffffff;
+}
